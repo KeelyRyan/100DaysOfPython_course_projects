@@ -1,7 +1,7 @@
 import requests
 import os
 from twilio.rest import Client
-import config
+from KeelyFlightDeals import config
 
 api_key = os.environ.get("OWM_API_KEY")
 account_sid = "AC73138e50c12a533ed8f58b493aaace22"
